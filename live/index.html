@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+		<title>BUTLER</title>
+		<meta charset='utf-8'>
+		<meta content='IE=Edge,chrome=1' http-equiv='X-UA-Compatible'>
+		<meta content='width=device-width, initial-scale=1.0' name='viewport'>
+		<link rel="stylesheet" type="text/css" href="css/butlerui.css">
+		<link rel="stylesheet" type="text/css" href="css/application.css">
+	</head>
+	<body>
+		   <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">BUTLER - Empty app</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+
+		<div class='container'>
+			<h1>Hello...</h1>
+			<p>Temperature:&nbsp;&nbsp;<span class="label label-info" id="temperature"><i>...</i></span></p>
+			<p><button type="button" class="btn btn-default" id="go">Click to send request</button></p>
+			<div id="console"></div>
+	  	</div>
+
+		<div id='footer'>
+			<div class='navbar navbar-fixed-bottom'>
+				<div class='navbar-inner'>
+					<ul class='list-inline'>
+						<li><a href="#"><span class='glyphicon glyphicon-home'></span></a></li>
+						<li><a href="#"><span class='glyphicon glyphicon-question-sign'></span></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+	</body>
+	<script src="js/butler.min.js" type="text/javascript"></script>
+	<script src="js/application.js" type="text/javascript"></script>
+
+</html>

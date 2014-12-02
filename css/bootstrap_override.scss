@@ -1,0 +1,48 @@
+
+.navbar {
+	background-color: #E97209;
+    border: none;
+    color: white;
+}
+
+body {
+	margin-top: 65px;
+	background-color: white !important;
+}
+.active a {
+	background-color: lightgrey;
+}
+
+
+@media only screen and (max-device-width: 480px) {
+}
+
+.navbar-fixed-bottom {
+    a {
+    	color: #FFF;
+  }
+	ul {
+		padding-top: 15px;
+		padding-left: 30px;
+		li {
+ 			margin-right: 15px;
+		}
+	}
+}
+
+
+.bg-info {
+   padding: 5px;
+}
+
+body {
+	font-family: 'Lucida Grande', 'Trebuchet MS', Arial, 'Bitstream Vera Sans', Verdana !important;
+}
+
+h1 {
+ text-shadow: none !important;
+ font-size: 20px !important;
+ font-weight: none !important;
+ /*font-family: OpenSansBold, sans-serif;*/
+ font-family: 'Lucida Grande', 'Trebuchet MS', Arial, 'Bitstream Vera Sans', Verdana !important;
+}

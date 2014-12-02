@@ -1,0 +1,3 @@
+MOUNT_POINT = "/push"
+TIMEOUT = 45
+TOKEN = "ZDKLD2DSldqsdqL2EDQfgdfGL3qfqfqQ3RFDFSDFDfs"
