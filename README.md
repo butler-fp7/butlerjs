@@ -17,3 +17,19 @@ BUTLERjs has been developed with the following tools:
 * [Faye](http://faye.jcoglan.com/)
 * [PNotify](http://sciactive.com/pnotify/) (v2.0.1)
 
+Simply get the code ([download the archive](https://github.com/butler-fp7/butlerjs/archive/master.zip) or clone the repo) to start playing with it. 
+
+## How to build it?
+
+BUTLERjs is composed by a set of Javascript files (from BUTLER along with additionnal libraries). In order to build the mininied version of BUTLERjs, run the following command `./build.sh` (worth noting that this build script will also minified CSS files).
+
+## App skeleton
+
+BUTLERjs comes with a skeleton app that can be used as a starting point for developing BUTLER app. The skeleton is generated every time the build command is called. To use it, unzip the butlerjs-skeleton.tgz file. 
+
+For convinience, a simple web server is provided (nodejs required). Start it with `./server.js` and go to http://localhost:8000 to see the app. 
+
+Custom app code can then be placed in:
+
+* application.js for custom Javascript;
+* appcation.css for custom CSS.
