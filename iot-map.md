@@ -54,7 +54,7 @@ The div with map as id will hold the map while devices and options will be shown
 
 Then, we will need to add additonnal libraries: [OpenLayers](http://openlayers.org/) and [Underscore](http://underscorejs.org/). Once done, we can start writing JS code. The JS Underscore lib is used in that context for its templating feature: devices are retrieved from a BUTLER SmartGateway and then displayed thanks to a JS template (see it in index.html).
 
-The application.js code will use a ....... The loadDevices() function, shown below, will load devices from the BUTLER gateway and render them on the page thanks to the template. The gateway URL is stored in the `devicesURL` variable:
+The application.js code will be developed as [a module using object literal notation](http://addyosmani.com/resources/essentialjsdesignpatterns/book/#modulepatternjavascript). The loadDevices() function, shown below, will load devices from the BUTLER gateway and render them on the page thanks to the template. The gateway URL is stored in the `devicesURL` variable:
 
 ````
 loadDevices: function(){
