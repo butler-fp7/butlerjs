@@ -31,11 +31,11 @@ The server is made available for convinience. Simply start it with `./server.js`
 
 In order to develop the application, we will need to add third party librairies (OpenLayers for example), custom Javascript, custom CSS styles and additionnal assets (images for markers). Javascript and CSS files and images can be added respectively in `js`, `css` and `images` folders. 
 
-Custom Javascript can be placed in the js/appliction.js file, and custom CSS styles can be placed the the css/application.css file. As indicated in the bottom of the layout (index.html file), those files will be loaded after JS libs and existing CSS. 
+Custom Javascript can be placed in the js/appliction.js file, and custom CSS styles can be placed the the css/application.css file. As indicated at the bottom of the layout (index.html file), those files will be loaded after JS libs and existing CSS. 
 
 ### Development
 
-As this point, we can start developing the application. This tutorial won't cover the full application development has most of the work is the regular work to be done when developing web application (e.g. writing HTML, JS and CSS code).
+As this point, we can start developing the application. This tutorial won't cover the full application development as most of the work is the regular work to be done when developing web applications (e.g. writing HTML, JS and CSS code).
 
 As a starting point, we will setup content areas:
 
@@ -54,7 +54,7 @@ The div with map as id will hold the map while devices and options will be shown
 
 Then, we will need to add additonnal libraries: [OpenLayers](http://openlayers.org/) and [Underscore](http://underscorejs.org/). Once done, we can start writing JS code. The JS Underscore lib is used in that context for its templating feature: devices are retrieved from a BUTLER SmartGateway and then displayed thanks to a JS template (see it in index.html).
 
-The application.js code will use a ....... The loadDevices() function, shown below, will load devices from the BUTLER gateway and render them on the page thanks to the template. The gateway URL is stored in `devicesURL` variable:
+The application.js code will use a ....... The loadDevices() function, shown below, will load devices from the BUTLER gateway and render them on the page thanks to the template. The gateway URL is stored in the `devicesURL` variable:
 
 ````
 loadDevices: function(){
