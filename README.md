@@ -33,3 +33,7 @@ Custom app code can then be placed in:
 
 * application.js for custom Javascript;
 * appcation.css for custom CSS.
+
+## Contact
+
+[Fabrice Clari](f.clari@inno-group.com) ([inno TSD](http://www.inno-group.com))
