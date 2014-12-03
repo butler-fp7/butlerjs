@@ -37,3 +37,7 @@ Custom app code can then be placed in:
 ## Contact
 
 [Fabrice Clari](f.clari@inno-group.com) ([inno TSD](http://www.inno-group.com))
+
+## Licence
+
+BUTLERjs is released under the [MIT License](http://opensource.org/licenses/MIT).
