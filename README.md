@@ -16,7 +16,6 @@ BUTLERjs has been developed with the following tools:
 * [NodeJS](http://nodejs.org/)
 * [Faye](http://faye.jcoglan.com/)
 * [PNotify](http://sciactive.com/pnotify/) (v2.0.1)
-* [Map Icons Collection](http://mapicons.nicolasmollet.com/)
 
 Simply get the code ([download the archive](https://github.com/butler-fp7/butlerjs/archive/master.zip) or clone the repo) to start playing with it. 
 
